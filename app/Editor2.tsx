@@ -46,7 +46,7 @@ export default function Editor() {
     // 에디터 인스턴스 생성
     editor = monaco.editor.create(divEl.current, {
       value: ["function x() {", '\tconsole.log("Hello world!");', "}"].join("\n"),
-      language: "rust",
+      language: "html",
       theme: "vs-dark",
       automaticLayout: true,
     });

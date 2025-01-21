@@ -19,7 +19,11 @@
     "react": "^18",
     "react-dom": "^18",
     "vscode-languageclient": "^9.0.1",
-    "vscode-ws-jsonrpc": "^3.4.0"
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-protocol": "^3.17.5",
+    "vscode-languageserver-textdocument": "^1.0.12",
+    "vscode-ws-jsonrpc": "^3.4.0",
+    "ws": "^8.18.0"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -33,5 +37,6 @@
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
+  "type": "module",
   "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
 }

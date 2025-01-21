@@ -2,7 +2,7 @@
 
 import dynamic from "next/dynamic";
 
-const DynamicEditor = dynamic(() => import("./Editor2"), {
+const DynamicEditor = dynamic(() => import("./Editor"), {
   loading: () => <p>Loading...</p>,
   ssr: false,
 });
